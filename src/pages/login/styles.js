@@ -7,7 +7,8 @@ const styles = StyleSheet.create({
         marginBottom: 18,
         fontSize: 12,
         textAlign: 'center',
-        color: '#BBBBBB'
+        color: '#BBBBBB',
+        height: 30
     },
     cod: {
         width: 358,

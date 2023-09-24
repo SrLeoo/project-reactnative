@@ -7,10 +7,12 @@ const global = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
     },
+
     color: {
         principal: { color: '#A04B5A' },
         cinza: { color: '#BBBBBB' },
     },
+
     logo: {
         display: "flex",
         justifyContent: "center",

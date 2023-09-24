@@ -54,4 +54,3 @@ export default function Login({ navigation }) { //Declaração do componponentes
         </View>
     );
 }
-

@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
         width: 400,
         height: 300
     },
-    
+
     footer: {
         position: 'absolute',
         bottom: 0,
@@ -17,13 +17,13 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         color: '#BBBBBB'
     },
+
     acompanhamento:{
         fontSize: 20,
         color: '#BBBBBB',
         // backgroundColor: '#ffffff',
         width: "auto",
         height: 300
-
     }
 
 })

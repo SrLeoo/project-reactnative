@@ -4,7 +4,7 @@ import global from '../../../style/global';
 import styles from './style';
 import { Button } from 'react-native-elements';
 
-export default function bemVindo({ navigation }) {
+export default function BemVindo({ navigation }) {
 
     return (
         <View style={global.container}>
