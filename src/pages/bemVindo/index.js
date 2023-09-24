@@ -5,13 +5,14 @@ import styles from './style';
 import { Button } from 'react-native-elements';
 
 
-export default function bemVindo() {
+export default function bemVindo({ navigation }) {
 
     return (
         <View style={global.container}>
             <Image style={styles.logo}
                 source={require('../../img/logoScoreFit.png')}
             />
+
             <Button style={global.button}
                 title="Entrar"
                 titleStyle={{ color: '#A04B5A' }}
@@ -25,6 +26,9 @@ export default function bemVindo() {
                     width: 200,
                     marginHorizontal: 50,
                     marginVertical: 10,
+                }}
+                onPress={() => {
+                    navigation.navigate('Login')
                 }}
             />
             <Text style={styles.footer}>Faça o login para começar</Text>

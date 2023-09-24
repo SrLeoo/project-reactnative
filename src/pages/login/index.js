@@ -45,9 +45,7 @@ export default function Login({ navigation }) { //Declaração do componponentes
                     marginHorizontal: 50,
                     marginVertical: 10,
                 }}
-                onPress={() => {
-                    navigation.navigate('bemVindo')
-                }}
+                
             />
             <Text style={global.color.cinza}>Esqueci a senha</Text>
 
