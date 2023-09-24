@@ -1,6 +1,6 @@
 // import { StatusBar } from 'expo-status-bar';
 import React, { useState } from 'react';
-import { StyleSheet, TextInput, View } from 'react-native';
+import { TextInput, View, Image } from 'react-native';
 import { Text, Button} from 'react-native-elements';
 // import { color } from 'react-native-elements/dist/helpers';
 // import { TextInput } from 'react-native-web';
@@ -13,8 +13,9 @@ export default function Login({ navigation }) { //Declaração do componponentes
 
     return (
         <View style={global.container}>
-            <Text h1 style={global.color.cinza}>Projeto</Text>
-            <Text h1 style={global.color.colorPrincipal}>Legal</Text>
+            <Image style={global.logo}
+                source={require('../../img/logoScoreFit.png')}
+            />
 
             <TextInput  // Codigo
                 style={styles.cod}

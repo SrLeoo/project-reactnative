@@ -4,14 +4,15 @@ import global from '../../../style/global';
 import styles from './style';
 import { Button } from 'react-native-elements';
 
-
 export default function bemVindo({ navigation }) {
 
     return (
         <View style={global.container}>
-            <Image style={styles.logo}
+            <Image style={global.logo}
                 source={require('../../img/logoScoreFit.png')}
             />
+
+            <Text style={styles.acompanhamento}>Acompanhamento, prograssão em{"\n"}um só lugar</Text>
 
             <Button style={global.button}
                 title="Entrar"

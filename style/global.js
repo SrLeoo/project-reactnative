@@ -10,8 +10,14 @@ const global = StyleSheet.create({
     color: {
         principal: { color: '#A04B5A' },
         cinza: { color: '#BBBBBB' },
+    },
+    logo: {
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        width: 400,
+        height: 300
     }
-
 });
 
 export default global
