@@ -12,14 +12,7 @@ export default function App() {
 
   return (
     <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen
-          name='Login'
-          component={Login}
-          options={{
-            headerShown: false
-          }}
-        />
+      <Stack.Navigator initialRouteName='bemVindo'>
         <Stack.Screen
           name='bemVindo'
           component={bemVindo}
@@ -27,6 +20,14 @@ export default function App() {
             headerShown: false
           }}
         />
+        <Stack.Screen
+          name='Login'
+          component={Login}
+          options={{
+            headerShown: false
+          }}
+        />
+
 
       </Stack.Navigator>
     </NavigationContainer>
