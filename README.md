@@ -19,8 +19,8 @@ Para você iniciar o projeto localmente esteramos utilizando o Expo.
 1. Entre dentro do local do projeto via CMD utilizando os comandos
 
 ```
-     CD: Comando utilizado para entrar dentro de uma pasta
-     DIR: Listar os diretorios do seu computador
+CD: Comando utilizado para entrar dentro de uma pasta
+DIR: Listar os diretorios do seu computador
 ```
 
 2. Após encontrar o projeto em seu computador digite 
