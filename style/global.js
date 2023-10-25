@@ -6,6 +6,7 @@ const global = StyleSheet.create({
         backgroundColor: '#0A0F10',
         alignItems: 'center',
         justifyContent: 'center',
+        
     },
 
     color: {

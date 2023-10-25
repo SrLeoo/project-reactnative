@@ -1,6 +1,14 @@
 import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
+    footer: {
+        position: 'absolute',
+        bottom: 0,
+        marginBottom: 18,
+        fontSize: 12,
+        textAlign: 'center',
+        color: '#BBBBBB',
+    },
     logo: {
         display: "flex",
         justifyContent: "center",
@@ -8,17 +16,7 @@ const styles = StyleSheet.create({
         width: 400,
         height: 300
     },
-
-    footer: {
-        position: 'absolute',
-        bottom: 0,
-        marginBottom: 18,
-        fontSize: 12,
-        textAlign: 'center',
-        color: '#BBBBBB'
-    },
-
-    acompanhamento:{
+    acompanhamento: {
         fontSize: 20,
         color: '#BBBBBB',
         // backgroundColor: '#ffffff',

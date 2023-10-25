@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, Image } from 'react-native';
 import global from '../../../style/global';
-import styles from './style';
+import styles from './styles';
 import { Button } from 'react-native-elements';
 
 export default function BemVindo({ navigation }) {
@@ -11,7 +11,7 @@ export default function BemVindo({ navigation }) {
             <Image style={global.logo}
                 source={require('../../img/logoScoreFit.png')}
             />
-
+            
             <Text style={styles.acompanhamento}>Acompanhamento, prograssão em{"\n"}um só lugar</Text>
 
             <Button style={global.button}

@@ -10,6 +10,7 @@ const styles = StyleSheet.create({
         color: '#BBBBBB',
         height: 30
     },
+
     cod: {
         width: 358,
         height: 40,
@@ -19,6 +20,7 @@ const styles = StyleSheet.create({
         borderRadius: 4,
         paddingLeft: 16
     },
+
     password: {
         width: 358,
         height: 40,
@@ -28,7 +30,7 @@ const styles = StyleSheet.create({
         borderRadius: 4,
         paddingLeft: 16,
     }
-
+    
 })
 
 export default styles;
